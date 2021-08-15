@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap');
+/*
+- Pale blue: hsl(225, 100%, 94%)
+- Bright blue: hsl(245, 75%, 52%)
+
+### Neutral
+
+- Very pale blue: hsl(225, 100%, 98%)
+- Desaturated blue: hsl(224, 23%, 55%)
+- Dark blue: hsl(223, 47%, 23%)
+*/
+
+.bg-conatiner{
+    background-image:url('/order-summary-component-main/images/pattern-background-desktop.svg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 98%);
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+}
+
+.bg-container-card{
+    
+    /*border: 2px black solid;*/
+}
+
+.card{
+    border-radius: 16px;
+    font-family: 'Red Hat Dispaly';
+    width: 375px;  
+}
+.card img{
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+
+
+.card-details{
+    padding: 26px;
+}
+.card-summary{
+    text-align: center;
+}
+.card-summary h3{
+    color: hsl(223, 47%, 23%);
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.card-summary P{
+    color: hsl(224, 23%, 55%);
+    font-size: 1rem;
+}
+
+
+.card-price-plans{
+    margin: 32px 0px 20px;
+    background-color: hsl(225, 100%, 98%);
+}
+.pricing{
+    padding: 18px;
+}
+.pricing img{
+    position: relative;
+    top: 9px;
+    height: 5vh;
+}
+.pricing-content{
+    padding: 8px;
+    position: relative;
+    top: 7px;
+    line-height: 0;
+    margin-left: 10px;
+}
+.pricing-content1{
+    width: 7vw;
+    color: hsl(223, 47%, 23%);
+    font-size: 1rem;
+    font-weight: bold;
+    
+}
+.pricing-content2{
+    margin-top: 20px;
+    color: hsl(224, 23%, 55%);
+}
+
+
+.payment-button0{
+    box-shadow: 0px 4px 10px hsl(245, 75%, 52%);
+    margin: 8px 0px;
+    font-size: .9rem;
+    font-weight: bold;
+    height: 5vh;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 12px;
+    color: white;
+    background-color: hsl(245, 75%, 52%)
+}
+
+.cancel-order-button0{
+    margin: 8px 0px;
+    font-size: .9rem;
+    font-weight: bold;
+    height: 5vh;
+    width: 100%;
+    border-width: 0px;
+    border-radius: 14px;
+    color: hsl(224, 23%, 55%);
+    background-color: #ffffff
+}
