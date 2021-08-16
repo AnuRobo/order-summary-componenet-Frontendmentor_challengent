@@ -10,14 +10,19 @@
 - Dark blue: hsl(223, 47%, 23%)
 */
 
-.bg-conatiner{
-    background-image:url('/images/pattern-background-desktop.svg');
-    background-position: top;
+body{
+    background-image:url('/order-summary-component-main/images/pattern-background-desktop.svg');
     background-repeat: no-repeat;
     background-color: hsl(225, 100%, 94%);
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .bg-container-card{
@@ -28,7 +33,7 @@
 .card{
     border-radius: 16px;
     font-family: 'Red Hat Dispaly';
-    width: 345px;  
+    width: 375px;  
 }
 .card img{
     border-top-left-radius: 16px;
